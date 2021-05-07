@@ -1,0 +1,396 @@
+@import url(font-awesome.min.css);
+@font-face {
+    font-family: "raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    color: #444;
+    font-family: "raleway", helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ----------------------------- */
+
+
+/* header of website */
+
+.header {
+    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.top-menu {
+    padding: 40px;
+}
+
+.top-left {
+    font-size: 2vw;
+    float: left;
+}
+
+.top-nav {
+    text-align: right;
+    ;
+}
+
+.top-nav ul {
+    list-style-type: none;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.top-nav ul li a {
+    color: rgba(255, 255, 255, .5);
+    transition: color .2s ease-in-out;
+}
+
+.top-nav ul li a:hover {
+    color: #ffffff;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 1.3vw;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-white a {
+    color: #444!important;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #444!important;
+}
+
+.btn-dark {
+    background-color: #383b43;
+    color: #ffffff!important;
+}
+
+.btn-blue {
+    background-color: #3cadd4;
+    color: #fff!important;
+}
+
+.main-banner {
+    color: #ffffff;
+    text-align: center;
+    padding: 150px;
+    padding-top: 100px;
+}
+
+.main-banner h2 {
+    line-height: 130px;
+    font-size: 5vw;
+}
+
+.main-banner p {
+    font-size: 2.2vw;
+    margin-bottom: 60px;
+}
+
+
+/* -------------------------------- */
+
+
+/* main part of site */
+
+
+/* services part */
+
+
+/* service header */
+
+.services {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid rgba(144, 144, 144, .25);
+    border-top: 1px solid rgba(144, 144, 144, .15);
+    padding: 100px 0;
+}
+
+.services-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.services-header h2 {
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.services-header p {
+    font-size: 1.4vw;
+    color: #5a5a5a;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* services boxes */
+
+.services-box {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.icon:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+}
+
+.blue-icon {
+    background-color: #3cadd4;
+    color: #ffffff;
+}
+
+.green-icon {
+    background-color: #add43c;
+    color: #ffffff;
+}
+
+.red-icon {
+    background-color: #d43c61;
+    color: #ffffff;
+}
+
+.big {
+    font-size: 35px;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+.services-box>* {
+    float: left;
+}
+
+.services-box:before,
+.services-box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box {
+    background-color: #fff;
+    padding: 70px 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(144, 144, 144, .25);
+    width: calc(calc(100% / 3) - 86px);
+    margin: 0 10px;
+}
+
+.box h3 {
+    color: #858585;
+    margin: 60px 0px 10px 0px;
+}
+
+
+/* ------------------------------------- */
+
+
+/* main about */
+
+
+/* about header */
+
+.about {
+    border-bottom: 1px solid rgba(144, 144, 144, .25);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-header h2 {
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.about-header p {
+    font-size: 1.4vw;
+    color: #5a5a5a;
+}
+
+
+/* --------------------- */
+
+
+/* about content */
+
+.about-content {
+    border-top: 1px solid rgba(144, 144, 144, .25);
+    border-bottom: 1px solid rgba(144, 144, 144, .25);
+    padding: 60px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.about-content>* {
+    float: left;
+}
+
+.about-content:before,
+.about-content:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.profile {
+    width: 25%;
+}
+
+.profile img {
+    float: left;
+    border-radius: 50%;
+}
+
+.profile h4 {
+    color: #383b43;
+    margin: 20px 0px 10px 0px;
+    font-weight: 800;
+}
+
+.profile p {
+    font-weight: 200;
+}
+
+
+/* ------------------------ */
+
+
+/* about footer */
+
+.about-footer {
+    padding: 50px;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.about-footer p {
+    line-height: 25px;
+}
+
+.about-footer button {
+    margin-top: 35px;
+}
+
+
+/* ------------------- */
+
+
+/* contact */
+
+
+/* contact header */
+
+.contact {
+    background-color: #3cadd4;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 3.5vw;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact-header p {
+    font-size: 1.4vw;
+    color: #ffffff;
+}
+
+
+/* --------------------------- */
+
+
+/* contact content */
+
+.contact-content {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-content input[type="text"],
+.contact-content input[type="email"] {
+    border: none;
+    border-radius: 4px;
+    width: 20%;
+    padding: 10px 19.5px;
+    color: #444;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+
+.contact-content input[type="text"] {
+    margin-right: 11px;
+}
+
+.contact-content textarea {
+    border: none;
+    border-radius: 4px;
+    color: #444;
+    background-color: #fff;
+    width: 46%;
+    padding: 10px 15px;
+    height: 200px;
+}
+
+::placeholder {
+    color: #858585;
+    font-family: "raleway";
+    font-size: 15px;
+}
+
+.contact-content button {
+    margin-top: 20px;
+}
+
+
+/* ------------------------ */
+
+
+/* footer */
+
+.footer {
+    padding: 70px;
+    background-color: #383b43;
+}
+
+.footer li {
+    display: inline-block;
+    color: #858585;
+    margin: 0 7px;
+}
+
+.footer a {
+    color: #858585;
+}
